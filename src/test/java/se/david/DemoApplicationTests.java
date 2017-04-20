@@ -10,13 +10,13 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @SpringBootTest
 @ExtendWith(SpringExtension.class)
-public class DemoApplicationTests {
+class DemoApplicationTests {
 
     @Nested
     @DisplayName("YAY")
-    public class NestedClass {
+    class NestedClass {
         @Test
-        public void contextLoads() {
+        void contextLoads() {
         }
     }
 
