@@ -22,7 +22,7 @@ import static org.hamcrest.Matchers.containsString;
 @ExtendWith(SpringExtension.class)
 @DisplayName("Testing out junit5/spring integration")
 @AutoConfigureMockMvc
-class DemoApplicationTests {
+class NestedSpringTests {
     @Autowired
     private MockMvc mvc;
 
