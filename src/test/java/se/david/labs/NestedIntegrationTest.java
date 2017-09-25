@@ -24,7 +24,7 @@ import java.util.stream.Stream;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @ExtendWith(SpringExtension.class)
 @DisplayName("Testing out WebTestClient")
-class NestedIntegrationTests {
+class NestedIntegrationTest {
     @Autowired
     private WebTestClient webClient;
 
